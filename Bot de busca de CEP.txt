@@ -1,0 +1,5 @@
+body.CEP
+
+curl -X POST "https://forge.withub.ai/api/triggers/5257a02d-c19b-4969-ab81-2206de86082c/execute/670153d6233838da5cd6e092" \ 
+-H "Content-Type: application/json" \ 
+-d ""{\"CEP\":\"number\"}""

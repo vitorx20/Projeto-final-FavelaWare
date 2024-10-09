@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "titulo": "Assistente Administrativo",
+    "imagem": "images/image_preview.png",
+    "descricao": "Aprenda as funções essenciais para atuar na administração de empresas, incluindo organização de documentos, atendimento ao cliente e gestão de agendas.",
+    "link": "Administrativo.html.html"
+  },
+  {
+    "id": 2,
+    "titulo": "Assistente de Recursos Humanos",
+    "imagem": "images/image_preview.png",
+    "descricao": "Conheça as práticas de recrutamento, seleção e gestão de pessoas. Ideal para quem deseja iniciar uma carreira em RH.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 3,
+    "titulo": "Corte e Costura",
+    "imagem": "images/Cusrso Corte e Costura/5.jpg",
+    "descricao": "Desenvolva suas habilidades em costura e criação de peças de vestuário. Aprenda técnicas básicas e avançadas.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 4,
+    "titulo": "Informática Básica",
+    "imagem": "images/Cursos Profissionalizantes 1.jpg",
+    "descricao": "básicas e avançadas.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 5,
+    "titulo": "Informática Avançada",
+    "imagem": "images/Cursos Profissionalizantes 2.jpg",
+    "descricao": "Curso voltado para iniciantes, onde você aprenderá a usar o computador, software básico e navegação na internet.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 6,
+    "titulo": "Manicure e Pedicure",
+    "imagem": "images/image_preview.png",
+    "descricao": "Aprenda técnicas profissionais de manicure e pedicure, incluindo cuidados com as unhas e estética.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 7,
+    "titulo": "Barbeiro",
+    "imagem": "images/image_preview.png",
+    "descricao": "Curso de técnicas de corte, barbear e cuidados com a barba, para quem deseja se tornar barbeiro profissional.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 8,
+    "titulo": "Logístico",
+    "imagem": "images/image_preview.png",
+    "descricao": "Entenda a cadeia de suprimentos e a importância da logística para a operação de empresas.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 9,
+    "titulo": "LowCode",
+    "imagem": "images/image_preview.png",
+    "descricao": "Aprenda a desenvolver aplicativos de forma rápida e eficiente com plataformas LowCode, ideal para iniciantes em programação.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 10,
+    "titulo": "Departamento Pessoal",
+    "imagem": "images/image_preview.png",
+    "descricao": "Conheça as atividades do departamento pessoal, incluindo folha de pagamento, benefícios e legislação trabalhista.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  },
+  {
+    "id": 11,
+    "titulo": "Cabeleireiro",
+    "imagem": "images/image_preview.png",
+    "descricao": "Aprenda técnicas de corte, coloração e tratamentos capilares. Ideal para quem deseja trabalhar em salões de beleza.",
+    "link": "Formulário Eletrônico para Matrículas na AOPA.html"
+  }
+]

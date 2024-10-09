@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap - Cursos</title>
+  <link rel="stylesheet" href="./lib/bootstrap.min.css">
+  <style>
+    .card-img-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px 24px;
+        display: flex;
+        align-items: center;
+        height: 90px;
+    }
+    a {
+
+color: rgb(255, 255, 255);
+font-size: 1.5em;
+
+align-items: flex-end;
+}
+h2 {
+        flex: 1;
+        /* Ocupa todo o espaço disponível */
+        text-align: center;
+        /* Centraliza o texto */
+        color: aliceblue;
+        font-size: 1.5em;
+    }
+
+    a {
+
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+
+        align-items: flex-end;
+    }
+
+    nav>a {
+        padding: 15px
+    }
+    a:hover {
+       color: #66b96b;       
+    }
+    * { margin: 0; padding: 0; }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+<img src="" alt="">
+        <a href="Pagina inicial.html">Pagina inicial</a>
+        <a href="Sobre.html">Sobre a AOPA</a>          
+    </nav>
+</header>
+  <h1>Cursos disponíveis</h1>
+  <div class="container">
+    <section class="row" id="cursos-container">
+      <!-- Os cursos serão inseridos aqui pelo JavaScript -->
+    </section>
+  </div>
+
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+  <script>
+    fetch('cursos.json')
+      .then(response => response.json())
+      .then(cursos => {
+        const container = document.getElementById('cursos-container');
+        cursos.forEach(curso => {
+          const article = document.createElement('article');
+          article.classList.add('col-4');
+
+          article.innerHTML = `
+            <div class="card">
+              <header class="card-header">${curso.titulo}</header>
+              <img src="${curso.imagem}" alt="Imagem de ${curso.titulo}" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">${curso.titulo}</h4>
+                <p class="card-text">${curso.descricao}</p>
+                <a href="${curso.link}" class="btn btn-primary">Inscreva-se</a>
+              </div>
+            </div>
+          `;
+          container.appendChild(article);
+        });
+      })
+      .catch(error => console.error('Erro ao carregar os cursos:', error));
+  </script>
+</body>
+
+</html>
