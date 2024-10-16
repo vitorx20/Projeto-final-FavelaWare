@@ -1,0 +1,47 @@
+.modal-dialog {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.modal-content {
+    padding: 20px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.modal-body h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.modal-body p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.modal-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-body ul li {
+    margin-bottom: 10px;
+}
+
+.modal-body ul li strong {
+    font-weight: bold;
+}
+
+.btn-inscreva-se {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-inscreva-se:hover {
+    background-color: #218838;
+}
