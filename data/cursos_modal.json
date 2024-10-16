@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "titulo": "Formação em Assistente Administrativo",
+    "imagem": "",
+    "descricao": "Neste curso",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 2,
+    "titulo": "Assistente de Recursos Humanos",
+    "imagem": "",
+    "descricao": "Aprenda as habilidades",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 3,
+    "titulo": "Corte e Costura",
+    "imagem": "-canais-e-como-funciona-.png",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 4,
+    "titulo": "Informática Básica",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 5,
+    "titulo": "Informática Avançada",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 6,
+    "titulo": "Manicure e Pedicure",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 7,
+    "titulo": "Barbeiro",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 8,
+    "titulo": "Logístico",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 9,
+    "titulo": "LowCode",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 10,
+    "titulo": "Departamento Pessoal",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  },
+  {
+    "id": 11,
+    "titulo": "Cabeleireiro",
+    "imagem": "",
+    "descricao": "",
+    "duracao": "entre 90  a 180 horas",
+    "preRequisitos": "Nenhum",
+    "certificacao": "Certificado de conclusão"
+  }
+]

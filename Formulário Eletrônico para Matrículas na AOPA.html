@@ -1,188 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário Eletrônico para Matrículas na AOPA</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <style>
-    header {
-      background-color: black;
-      text-align: center;
-      padding: 10px 24px;
-      display: flex;
-      align-items: center;
-      height: 90px;
-      max-height: 90px;
-    }
-
-    .logo {
-      height: 80px;
-      margin-right: 20px;
-      /* Espaço entre a logo e o texto */
-      max-height: 45px;
-      align-items: center;
-      border-bottom: 1px solid #0000;
-    }
-
-    .logo :hover {
-      background-color: aliceblue
-    }
-
-    .header-text {
-      flex: 1;
-      /* Ocupa todo o espaço disponível */
-      text-align: center;
-      /* Centraliza o texto */
-      color: aliceblue;
-      font-size: 1.5em;
-    }
-
-    .row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    form {
-      width: 100%;
-      max-width: 400px;
-      background-color: #f9f9f9;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    label {
-      font-weight: bold;
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="number"],
-    textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      font-size: 1em;
-      border: 1px solid #999;
-      box-sizing: border-box;
-      /* Ensures padding is included in width */
-    }
-
-    input:invalid:focus {
-      border-color: red;
-    }
-
-    button {
-      background-color: aliceblue;
-      border: 1px solid #999;
-      padding: 15px;
-      cursor: pointer;
-      width: 100%;
-      font-size: 1em;
-    }
-
-    * {
-      box-sizing: border-box
-    }
-
-    @media screen and (max-width: 768px) {
-      form {
-        width: 100%;
-      }
-
-    }
-  </style>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Eletrônico para Matrículas na AOPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="css/Formulário Eletrônico para Matrículas na AOPA.css">
 </head>
 
 <body>
-  <header>
-    <a href="https://www.pavonianos.org.br/institucional/sao-ludovico-pavoni"> <img class="logo"
-        src="Logo/HORIZONTAL.png" height="" width="" alt="AOPA Logo"></a>
-    <div class="header-text">
-      <h1>Inscrições nos cursos da AOPA</h1>
+    <header>
+        <a href="https://www.pavonianos.org.br/institucional/sao-ludovico-pavoni">
+            <img class="logo" src="images/Logo/HORIZONTAL.png" alt="AOPA Logo">
+        </a>
+        <div class="header-text">
+            <h1>Inscrições nos cursos da AOPA</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pagina inicial.html">Página inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <form action="https://formsubmit.co/vitorgabriielm@gmail.com" method="POST">
+            <div class="form-item">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required autocomplete="name">
+            </div>
+            <div class="form-item">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required autocomplete="email">
+            </div>
+            <div class="form-item">
+                <label for="age">Data de nascimento</label>
+                <input type="date" id="age" name="age" required autocomplete="bday">
+            </div>
+            <div class="form-item">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
+            <div class="form-item">
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" required autocomplete="off">
+            </div>
+            <div class="form-item">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" maxlength="8" placeholder="Digite o CEP" oninput="validarEntrada()" required autocomplete="postal-code">
+            </div>
+            <div class="form-item">
+                <label for="adress">Endereço</label>
+                <input type="text" id="adress" name="adress" placeholder="Endereço" autocomplete="address-line1">
+            </div>
+            <div>
+                <textarea name="Mensagem" placeholder="Digite sua mensagem aqui" autocomplete="off"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        
     </div>
-  </header>
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="Pagina inicial.html">página inicial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cursos.html">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Sobre.html">Sobre</a>
-          </li>
-        </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./libs/jquery.mask.min.js"></script>
 
-      </div>
-    </div>
-  </nav>
-
-  <div class="row">
-
-    <form action="https://formsubmit.co/vitorgabriielm@gmail.com" method="POST">
-      <div class="form-item">
-        <label for="name">Nome completo</label>
-        <input type="text" id="name" name="name" placeholder="Digite seu nome completo">
-      </div>
-      <div class="form-item">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu email">
-      </div>
-      <div class="form-item">
-        <label for="age">Data de nascimento</label>
-        <input type="date" id="age" name="age" placeholder="Digite a data">
-      </div>
-      <div class="form-item">
-        <label for="phone">Telefone</label>
-        <input type="tel" id="phone" name="phone">
-      </div>
-      <div class="form-item">
-        <label for="cpf">CPF</label>
-        <input type="text" id="cpf" name="cpf">
-      </div>
-      <div class="form-item">
-        <label for="cep">CEP</label>
-        <input type="text" id="cep" name="cep">
-      </div>
-      <div class="form-item">
-        <label for="adress">Endereço</label>
-        <input type="text" id="adress" name="adress">
-      </div>
-      <div>
-        <textarea name="Mensagem" placeholder="Digite sua mensagem aqui"></textarea>
-      </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
-  </div>
-
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <!-- jQuery Mask-->
-  <script src="./libs/jquery.mask.min.js"></script>
-  <!-- jQuery Validate -->
-  <script src="./libs/jquery.validate.min.js"></script>
-  <script src="./libs/messages_pt_BR.min.js"></script>
-  <!-- JavaScript -->
-  <script src="./js/main.js"></script>
-  <script src="formularios.js"></script>
+    <script src="./libs/messages_pt_BR.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/Consulta_CEP.js"></script>
 </body>
 
 </html>

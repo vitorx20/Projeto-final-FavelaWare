@@ -16,7 +16,7 @@
   {
     "id": 3,
     "titulo": "Corte e Costura",
-    "imagem": "images/Cusrso Corte e Costura/5.jpg",
+    "imagem": "images/Cursos Profissionalizantes 3.jpg",
     "descricao": "Desenvolva suas habilidades em costura e criação de peças de vestuário. Aprenda técnicas básicas e avançadas.",
     "link": "Formulário Eletrônico para Matrículas na AOPA.html"
   },
@@ -24,14 +24,14 @@
     "id": 4,
     "titulo": "Informática Básica",
     "imagem": "images/Cursos Profissionalizantes 1.jpg",
-    "descricao": "básicas e avançadas.",
+    "descricao": "Curso voltado para iniciantes, onde você aprenderá a usar o computador, software básico e navegação na internet.",
     "link": "Formulário Eletrônico para Matrículas na AOPA.html"
   },
   {
     "id": 5,
     "titulo": "Informática Avançada",
     "imagem": "images/Cursos Profissionalizantes 2.jpg",
-    "descricao": "Curso voltado para iniciantes, onde você aprenderá a usar o computador, software básico e navegação na internet.",
+    "descricao": "",
     "link": "Formulário Eletrônico para Matrículas na AOPA.html"
   },
   {
